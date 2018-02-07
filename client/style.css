@@ -1,0 +1,113 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font: 30px Georgia, serif; 
+  color: #A0A0A0;
+}
+
+.box {
+  height: 705px;
+  width: 1135px;
+  margin: 0 auto;
+  background-color: #eaeaea;   
+}
+
+.live-feed {
+  height: 600px;
+  width: 800px;
+  float: left;
+  background-color: #000000; 
+  margin: 20px 0 0 20px;
+  text-align: center;
+  overflow:hidden;
+}
+
+.live-feed img {
+  width:100%;
+  height:100%;
+}
+
+.comment {
+  height: 665px;
+  width: 275px;
+  float: right;
+  background-color: #FFFFFF;
+  margin: 20px 20px 0 0;
+  overflow:hidden;
+}
+
+.comment .messages {
+  height: 600px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.comment .write-message {
+  height: 65px;
+  width: 100%;
+}
+
+.comment .write-message textarea {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 5px;
+  resize: none;
+}
+
+.comment .write-message textarea:focus {
+  outline: none;
+  border: 1px solid #0074d9;
+}
+
+.comment .message {
+  margin: 10px 10px 0 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  background-color: #eee;
+}
+
+.comment .message strong {
+  font-size:12px;
+}
+
+button {
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #0074d9;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.box, .live-feed, .comment, button{
+  border-radius: 3px;
+}
+
+.box, .live-feed, .comment{
+  border: 1px solid #ddd;
+}
+
+.comment {
+  position: relative;
+}
+
+.comment .coming-soon {
+  text-align:center;
+  display:block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #595959;
+  font-size: 14px;
+  transform: rotate(10deg);
+}

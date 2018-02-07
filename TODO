@@ -1,0 +1,7 @@
+- Better server logs (connections/disconnections list, current active users)
+- Complete chat logs
+- Persistent user ID (based on hash of IP perhaps?)
+- Live vote count, live current active user count
+- Sign on/sign off messages as users join
+- Admin flair
+- Admin override

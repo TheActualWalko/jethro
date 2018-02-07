@@ -1,0 +1,19 @@
+{
+  "name": "jethro-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ir-attx4": "^0.2.10",
+    "lego-ir": "^1.1.2",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2",
+    "tessel": "^0.3.25",
+    "tessel-av": "^0.15.0"
+  }
+}

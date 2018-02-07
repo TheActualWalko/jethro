@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="UTF-8">  
+    <title>TweetPlaysRC v2.0</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+    
+  <body>
+    <h1>TweetPlaysRC v2.0</h1>
+    <div class="box">
+      <div class="live-feed">
+        <img id="img" />
+      </div>
+      <div class="comment">
+        <div class="messages" id="live-chat">
+        </div>        
+        <form class="write-message">
+          <textarea class="message-input" id="message-input" placeholder="write a message here"></textarea>
+        </form>
+      </div>      
+      <button data-vote="FORWARD" class="forward">&uarr;</button>
+      <button data-vote="BACKWARD" class="backward">&darr;</button>
+      <button data-vote="LEFT" class="left">&larr;</button>
+      <button data-vote="RIGHT" class="right">&rarr;</button>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script src="index.js"></script>
+    <script src="messages.js"></script>
+  </body>
+</html>
